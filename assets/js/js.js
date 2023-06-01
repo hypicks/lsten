@@ -16,9 +16,31 @@ menu_item.forEach((item) => {
 });
 
 /* ====================== SHOW SCROLL UP ======================== */
-function scrollUp(){
-    const scrollUp = document.getElementById('scroll-up');
-    // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
-    if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
-}
-window.addEventListener('scroll', scrollUp)
+// function scrollUp(){
+//     const scrollUp = document.getElementById('scroll-up');
+//     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+//     if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+// }
+// window.addEventListener('scroll', scrollUp)
+
+window.onscroll = function() {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      scrollToTopBtn.classList.add("show");
+    } else {
+      scrollToTopBtn.classList.remove("show");
+    }
+  }
+  
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
