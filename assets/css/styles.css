@@ -746,7 +746,7 @@ u {
 }
 
 /* For medium Devices */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 351px) {
   /* #arbetsmetoder .arbets-item {
 		flex-direction: column;
 	} */
