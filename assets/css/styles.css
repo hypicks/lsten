@@ -745,11 +745,88 @@ u {
   
 }
 
+@media screen and (min-width: 458px) {
+  .container{
+    margin-left: 0;
+    margin-right: 5rem;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /* Hero */
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #header .nav-list {
+    padding: 2rem .55rem 4rem;
+   }
+
+  #header .nav-list ul a {
+    font-size: 1.5rem;
+    column-gap: 0;
+  }
+	
+  #header .nav-list ul a {
+    font-size: 3rem;
+  }
+  /* End Hero */
+
+  /* Start arbetsmetoder */
+  #arbetsmetoder .arbetsmetoder_title h1{
+    font-size: 3rem;
+  }
+  #arbetsmetoder .arbetsmetoder_title p{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #arbetsmetoder .arbets-info h1 {
+    font-size: 2rem;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+
+  #arbetsmetoder .arbets-info p{
+    font-size: 1rem;
+  }
+
+	#arbetsmetoder .arbets-item:nth-child(even) {
+		flex-direction: column;
+	}
+	#arbetsmetoder .arbets-item {
+		height: 600px;
+    text-align: center;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+  #arbetsmetoder .arbets-item h1 {
+    text-align: center;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#arbetsmetoder .all-arbetsmetoder .arbets-info {
+		height: 70%;
+    width: 70%;
+	}
+	#arbetsmetoder .all-arbetsmetoder .arbets-img {
+		height: 70%;
+    width: 70%;
+	}
+
+  #kontakta .cunt h1{
+    font-size: 3rem;
+  }
+
+}
+
 /* For medium Devices */
 @media screen and (min-width: 568px) {
-  /* #arbetsmetoder .arbets-item {
-		flex-direction: column;
-	} */
 
   #arbetsmetoder .arbetsmetoder_title h1{
     font-size: 4rem;
