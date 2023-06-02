@@ -616,7 +616,7 @@ u {
 
 
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 320px) {
   .container{
     margin-left: 0;
     margin-right: 5rem;
@@ -691,7 +691,7 @@ u {
 	}
 
   #kontakta .cunt h1{
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
 }
