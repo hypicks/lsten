@@ -616,13 +616,13 @@ u {
 
 /* ===== MEDIA QUERIES ===== */
 /* For Small Devices */
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
   .container{
       margin-left: 1rem;
       margin-right: 1rem;
   }
 
-  /* Hero */
+
   #hero h1 {
 		font-size: 2rem;
 	}
@@ -636,13 +636,13 @@ u {
     column-gap: 0;
   }
 
-	/* End Hero */
+
   #header .nav-list ul a {
     font-size: 1rem;
   }
 
 	/* arbets */
-	#arbetsmetoder .arbets-item {
+	/* #arbetsmetoder .arbets-item {
 		flex-direction: row;
 	}
 
@@ -669,9 +669,7 @@ u {
 		height: 100%;
     width: 10p;
 	}
-	/* End arbets */
 
-	/* om_mig */
 	#om_mig .om_mig {
 		flex-direction: column-reverse;
 	}
@@ -687,9 +685,7 @@ u {
 		width: 98%;
 		border: 10px solid #92a55f;
 	} 
-	/* End om_mig */
 
-  	/* arbets */
 	#arbetsmetoder .arbets-item {
 		flex-direction: column;
 	}
@@ -727,22 +723,21 @@ u {
 		height: 90%;
     /* width: 100%; */
 
-	}
+	/* }
 	#arbetsmetoder .all-arbetsmetoder .arbets-img {
 		height: 100%;
     width: 100%;
 	}
 
-	/* kontakta  */
 
 
   #kontakta .cunt h1{
     font-size: 2rem;
-  }
+  } 
   
-}
+}  */
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 350px) {
   .container{
     margin-left: 0;
     margin-right: 5rem;
