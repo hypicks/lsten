@@ -945,9 +945,13 @@ u {
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
+	#kontakta .kontakta-item .icon img {
+		width: 100px;
+	    	height: 100px;
+		}
+
+	  #kontakta .kontakta-info h2 {
+	    font-size: 2rem;
+  }
 }
 /* End  Media Query For Desktop */
