@@ -746,34 +746,43 @@ u {
 }
 
 /* For medium Devices */
-@media screen and (min-width: 351px) {
+@media screen and (min-width: 568px) {
   /* #arbetsmetoder .arbets-item {
 		flex-direction: column;
 	} */
 
   #arbetsmetoder .arbetsmetoder_title h1{
-    font-size: 2rem;
+    font-size: 4rem;
   }
   #arbetsmetoder .arbetsmetoder_title p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    text-align: center;
   }
 
   #arbetsmetoder .arbets-info h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 12px;
     margin-bottom: 10px;
 
   }
 
   #arbetsmetoder .arbets-info p{
-    font-size: .5rem;
+    font-size: 1rem;
   }
 
 	#arbetsmetoder .arbets-item:nth-child(even) {
 		flex-direction: column;
 	}
 	#arbetsmetoder .arbets-item {
-		height: 400px;
+		height: 600px;
+    text-align: center;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+  #arbetsmetoder .arbets-item h1 {
+    text-align: center;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
@@ -786,12 +795,65 @@ u {
 		height: 50%;
     width: 70%;
 	}
+
+  /* kontakta  */
+	#kontakta .kontakta {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+
+  #kontakta .cunt h1{
+    font-size: 4rem;
+  }
+	#kontakta .kontakta-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+    align-items: center;
+		justify-content: space-around;
+		margin: 0;
+	}
+	#kontakta .kontakta-item {
+		width: 30%;
+    height: 25vh;
+		margin: 0;
+		flex-direction: row;
+	}
+	/* #kontakta .kontakta-item .icon {
+		height: 100%;
+		width: 100%;
+	} */
+	#kontakta .kontakta-item .icon img {
+		width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+	}
+	#kontakta .kontakta-item .kontakta-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	/* End kontakta  */
+
 }
 
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
-	.cta {
+	.container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
