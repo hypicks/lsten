@@ -641,23 +641,16 @@ u {
     font-size: 1rem;
   }
 
-  	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 55%;
-		margin: 2.5%;
-	}
-	/* End Services Section */
-
 	/* arbets */
 	#arbetsmetoder .arbets-item {
 		flex-direction: row;
 	}
 
   #arbetsmetoder .arbets-info h1{
-    font-size: 2.5rem;
+    font-size: 5.5rem;
   }
   #arbetsmetoder .arbets-info p{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
 	#arbetsmetoder .arbets-item:nth-child(even) {
@@ -702,21 +695,23 @@ u {
 	}
 
   #arbetsmetoder .arbetsmetoder_title h1{
-    font-size: 1.8rem;
+    font-size: 3rem;
+    padding-top: 5px;
+
   }
   #arbetsmetoder .arbetsmetoder_title p{
-    font-size: .8rem;
+    font-size: 1.5rem;
   }
 
   #arbetsmetoder .arbets-info h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 12px;
     margin-bottom: 10px;
 
   }
 
   #arbetsmetoder .arbets-info p{
-    font-size: .5rem;
+    font-size: 1rem;
   }
 
 	#arbetsmetoder .arbets-item:nth-child(even) {
@@ -729,7 +724,9 @@ u {
 		border-radius: 0;
 	}
 	#arbetsmetoder .all-arbetsmetoder .arbets-info {
-		height: 50%;
+		height: 90%;
+    /* width: 100%; */
+
 	}
 	#arbetsmetoder .all-arbetsmetoder .arbets-img {
 		height: 100%;
@@ -745,7 +742,7 @@ u {
   
 }
 
-@media screen and (min-width: 458px) {
+@media screen and (min-width: 440px) {
   .container{
     margin-left: 0;
     margin-right: 5rem;
